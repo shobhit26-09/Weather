@@ -38,7 +38,7 @@ function displayWeather(data) {
 
   var weatherBackground = document.querySelector('body');
   if (data.weather[0].main === "Clear") {
-    weatherBackground.style.backgroundImage = "url('clear.jpg')";
+    weatherBackground.style.backgroundImage = "url('day-clear.jpg')";
   } else if (data.weather[0].main === "Clouds") {
     weatherBackground.style.backgroundImage = "url('cloudy.jpg')";
   } else if (data.weather[0].main === "Rain") {
